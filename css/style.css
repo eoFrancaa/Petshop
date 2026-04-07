@@ -1,3 +1,12 @@
+*{
+    border: 0;
+}
+
+html{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -29,8 +38,111 @@ section.home{
 section.home img{
     max-width: 40vw;
 }
+section.home div{
+    max-width: 40vw;
+}
 section.home h1{
+    font-size: 4rem;
+}
+section.home p {
+    color: grey;
+}
+section.home button{
+    padding: 1.5vw 3vw 1.5vw 3vw;
+    font-size: small;
+    background-color: rgb(240, 190, 125);
+    border-radius: 7px;
     
 }
 
+section.video {
+    margin: 10vw 0vw 10vw 0vw;  
+    padding: 10vw 0vw 10vw 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 248, 248);
+    width: 100vw;
+}
+section.companies{
+    margin: 2vh 0vh 15vh 0vh;
+}
 
+section.companies ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+section.companies ul li {
+    display: flex;
+}
+
+section.companies ul li img{
+    max-width: 8vw;
+}
+
+section.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+section.cards div {
+ width: 20vw;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+section.cards div img{
+    max-width: 8vw;
+}
+
+section.cards div h4{
+    font-size: 0.9rem;
+}
+
+section.cards div p{
+    font-size: smaller;
+    color: grey;
+    text-align: center;
+}
+
+section.adm{
+    padding: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    background-color: rgb(228, 222, 246);
+}
+
+section.adm img{
+    max-width: 40vh;
+}
+
+section.adm div:last-child img{
+    max-width: 6vh;
+}
+section.adm p{
+    width: 30vh;
+    font-weight: 900;
+}
+section.adm p:last-child{
+    font-weight: lighter;
+    color: gray;
+}
+footer{
+    display: flex;
+    
+}
+footer div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+footer div:first-child img:last-child{
+    max-width: 50vh;
+
+}
